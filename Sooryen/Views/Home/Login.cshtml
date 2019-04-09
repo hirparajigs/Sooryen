@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+<h4>Use a local account to log in.</h4>
+<hr />
+<div class="form-group">
+
+    <div class="col-md-12">
+       User Name
+
+    </div>
+</div>
+<div class="form-group">
+   
+    <div class="col-md-12">
+        <input type="text" id="userName" />
+
+    </div>
+</div>
+<div class="form-group">
+
+    <div class="col-md-12">
+        Password
+    </div>
+</div>
+<div class="form-group">
+    
+    <div class="col-md-12">
+        <input type="password" id="Password" />
+    </div>
+</div>
+
+<div class="form-group">
+    <div class="col-md-offset-2 col-md-12">
+        <input type="submit" value="Log in" id="btnLogin" class="btn btn-default" onclick="user.Login()" />
+    </div>
+</div>
+
+<script src="~/Scripts/User.js"></script>

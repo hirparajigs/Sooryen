@@ -1,0 +1,14 @@
+D:\My Development\Sooryen\Sooryen.Data\bin\Debug\Sooryen.Data.dll.config
+D:\My Development\Sooryen\Sooryen.Data\bin\Debug\Sooryen.Data.dll
+D:\My Development\Sooryen\Sooryen.Data\bin\Debug\Sooryen.Data.pdb
+D:\My Development\Sooryen\Sooryen.Data\bin\Debug\EntityFramework.dll
+D:\My Development\Sooryen\Sooryen.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\My Development\Sooryen\Sooryen.Data\bin\Debug\Sooryen.Entities.dll
+D:\My Development\Sooryen\Sooryen.Data\bin\Debug\Sooryen.Entities.pdb
+D:\My Development\Sooryen\Sooryen.Data\bin\Debug\EntityFramework.xml
+D:\My Development\Sooryen\Sooryen.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\My Development\Sooryen\Sooryen.Data\obj\Debug\Sooryen.Data.csprojAssemblyReference.cache
+D:\My Development\Sooryen\Sooryen.Data\obj\Debug\Sooryen.Data.csproj.CoreCompileInputs.cache
+D:\My Development\Sooryen\Sooryen.Data\obj\Debug\Sooryen.Data.csproj.CopyComplete
+D:\My Development\Sooryen\Sooryen.Data\obj\Debug\Sooryen.Data.dll
+D:\My Development\Sooryen\Sooryen.Data\obj\Debug\Sooryen.Data.pdb

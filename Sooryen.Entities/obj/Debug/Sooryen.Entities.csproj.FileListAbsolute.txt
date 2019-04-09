@@ -1,0 +1,5 @@
+D:\My Development\Sooryen\Sooryen.Entities\bin\Debug\Sooryen.Entities.dll
+D:\My Development\Sooryen\Sooryen.Entities\bin\Debug\Sooryen.Entities.pdb
+D:\My Development\Sooryen\Sooryen.Entities\obj\Debug\Sooryen.Entities.csproj.CoreCompileInputs.cache
+D:\My Development\Sooryen\Sooryen.Entities\obj\Debug\Sooryen.Entities.dll
+D:\My Development\Sooryen\Sooryen.Entities\obj\Debug\Sooryen.Entities.pdb

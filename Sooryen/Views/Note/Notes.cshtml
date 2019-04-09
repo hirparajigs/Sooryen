@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = "Notes";
+}
+
+@section scripts {
+<script src="~/Scripts/knockout-3.5.0.js"></script>
+<script src="~/Scripts/knockout-3.5.0.debug.js"></script>
+<script src="~/Scripts/Notes.js"></script>
+}
+
+
+<h2>Notes</h2>
+
+<table class="table">
+    <tr>
+        <td>
+            <table class="table">
+                <tbody data-bind="foreach: Notes">
+                    <tr>
+                        <td data-bind="text: Title"></td>
+                        <td data-bind="text: Body"></td>
+                        <td>
+                            <button data-bind="click: $root.delete">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td align="right"><button data-bind="click: $root.create">Add Note</button></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div data-bind="ifnot: Note()">
+                                <div>
+                                    <label for="Title">Title</label>
+                                    <input data-bind="value: $root.Title" type="text" title="Title" />
+                                </div>
+
+                                <div>
+                                    <label for="Body">Body</label>
+                                    <input data-bind="value: $root.Body" type="text"  title="Body" height="100" />
+                                </div>
+                                <br />
+                                <div>
+                                    <button data-bind="click: $root.create">Save</button>
+                                    <button data-bind="click: $root.reset">Reset</button>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+</table>
+
+
